@@ -1,5 +1,7 @@
+#!/usr/bin/python
 # Generic Caeser cipher encoder
 # Only uses capital letters
+
 
 fi = raw_input('Type user 1st initial: ')
 si = raw_input('Type user 2nd initial: ')
@@ -44,4 +46,4 @@ dcpwc = str(pwc)
 
 print "kp"+"".join([dcpwa,dcpwb,dcpwc])
 
-# print "password is dc%s." %(dcpw)
+# print "password is kp%s." %(kppw)
