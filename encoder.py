@@ -3,13 +3,13 @@
 # Only uses capital letters
 
 
-fi = raw_input('Type user 1st initial: ')
-si = raw_input('Type user 2nd initial: ')
-li = raw_input('Type user 3rd initial: ')
+fi = raw_input('Type user 1st initial: ').upper()
+si = raw_input('Type user 2nd initial: ').upper()
+li = raw_input('Type user 3rd initial: ').upper()
 
-fi.upper()
-si.upper()
-li.upper()
+#fi.upper()
+#si.upper()
+#li.upper()
 
 map = {
 	'A': 23,
