@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # Generic Caeser cipher encoder
-# Only uses capital letters
+
 
 
 fi = raw_input('Type user 1st initial: ').upper()
