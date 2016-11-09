@@ -1,11 +1,15 @@
 #!/usr/bin/python
 # Generic Caeser cipher encoder
 
+ui = raw_input('Type user initials: ').upper()
 
+fi = ui[0]
+si = ui[1]
+li = ui[2]
 
-fi = raw_input('Type user 1st initial: ').upper()
-si = raw_input('Type user 2nd initial: ').upper()
-li = raw_input('Type user 3rd initial: ').upper()
+#fi = raw_input('Type user 1st initial: ').upper()
+#si = raw_input('Type user 2nd initial: ').upper()
+#li = raw_input('Type user 3rd initial: ').upper()
 
 #fi.upper()
 #si.upper()
