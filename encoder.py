@@ -7,27 +7,23 @@ fi = raw_input('Type user 1st initial: ')
 si = raw_input('Type user 2nd initial: ')
 li = raw_input('Type user 3rd initial: ')
 
+fi.upper()
+si.upper()
+li.upper()
 
 map = {
 	'A': 23,
-	'a': 23,
 	'B': 24,
-	'b': 24,
 	'C': 25,
-	'c': 25,
 	'D': 26,
-	'd': 26,
 	'E': 27,
-	'e': 27,
 	'F': 28,
 	'G': 29,
 	'H': 30,
 	'I': 31,
 	'J': 32,
 	'K': 33,
-	'k': 33
 	'L': 34,
-	'l': 34,
 	'M': 35,
 	'N': 10,
 	'O': 11,
